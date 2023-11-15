@@ -1,9 +1,19 @@
-h1{
+.header-main{
     position: relative;
-    top: 300px;
     left: 50%;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
 }
 
 body{
+    box-sizing: border-box;
     background-color: black;
+}
+
+.header{
+    max-width: 1920px;
+    border-bottom: 1px white solid;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
