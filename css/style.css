@@ -4,20 +4,28 @@ body{
 }
 
 .header-main{
+    margin-bottom: 15px;
+    margin-top: 15px;
     color: white;
     font-size: 40px;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 
 .header{
+    text-align: center;
     display: flex;
     max-width: 1920px;
     border-bottom: 1px white solid;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    justify-content: space-evenly;
 }
 
-.header-links{
-    flex-direction: row;
-    justify-content: flex-end;
+.header-logo{
+    width: 15px;
+    height: 15px;
+}
+
+#inst-logo{
+    margin-right: 30px;
 }
