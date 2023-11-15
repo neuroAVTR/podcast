@@ -1,0 +1,9 @@
+h1{
+    position: relative;
+    top: 300px;
+    left: 50%;
+}
+
+body{
+    background-color: black;
+}
