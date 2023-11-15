@@ -1,19 +1,23 @@
-.header-main{
-    position: relative;
-    left: 50%;
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-}
-
 body{
     box-sizing: border-box;
     background-color: black;
 }
 
+.header-main{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
 .header{
+    display: flex;
     max-width: 1920px;
     border-bottom: 1px white solid;
     padding-bottom: 15px;
     padding-top: 15px;
+}
+
+.header-links{
+    flex-direction: row;
+    justify-content: flex-end;
 }
