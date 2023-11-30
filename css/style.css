@@ -1,38 +1,441 @@
 body{
+    background-color: #191919;
     box-sizing: border-box;
-    background-color: black;
+    height: 9999px;
 }
 
-.header-main{
-    margin-bottom: 15px;
-    margin-top: 15px;
-    color: white;
-    font-size: 40px;
+button{
+    border: none;
+    cursor: pointer;
+}
+*{
+    box-sizing: border-box;
+    color:#FFF;
+}
+li , a , button {
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    overflow: hidden;
-    transition: ease-in-out 0.2s;
 }
 
-.header-main:hover{
-    transform: scale(1.1);
+header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    max-height: 119px;
+    padding: 26px 50px;
+    color: white;
+}
+
+li , ul {
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.nav__last{
+    margin-right: 0;
+}
+
+#colorr{
+    color: #118DA8;
+}
+
+.nav__link{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
     cursor: pointer;
 }
 
-.header{
-    text-align: center;
+.hero{
+    margin: auto;
+    max-width: 1400px;
+    max-height: 913px;
     display: flex;
-    max-width: 1920px;
-    border-bottom: 1px white solid;
-    justify-content: space-evenly;
+    align-items: center;
 }
 
-.header-logo{
-    width: 15px;
-    height: 15px;
+.man{
+    max-width: 650px;
+    max-height: 873px;
 }
 
-#inst-logo{
-    margin-right: 30px;
+.lines{
+    position: relative;
+    left: -30px;
+    top: -900px;
+}
+
+.left{
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-right: 60px;
+    width: 650px;
+}
+.man-photo{
+    float: left;
+}
+
+.right{
+    color: #FFF;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+}
+
+.next-level{
+    display: inline-block;
+}
+
+.hero-text{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    margin-bottom: 0;
+}
+
+.heero-text{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 117.333% */
+    letter-spacing: 3.2px;
+    margin-top: 0;
+}
+
+.heero-texts{
+    margin-top: 0;
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 110% */
+    letter-spacing: 3.2px;
+}
+
+.lines-ss{
+    position: relative;
+    right: 354px;
+}
+
+.pad-text{
+    position: relative;
+    bottom: 30px;
+}
+
+.listen-on{
+    width: 289px;
+    height: 72px;
+    flex-shrink: 0;
+    padding-left: 20px;
+    margin-top: 90px;
+}
+
+.listen-on-text{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    bottom: 54px;
+}
+
+.lis-img{
+    display: inline-flex;
+    height: 32px;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 17px;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 83px;
+}
+
+.listem-on-img{
+    width: 32px;
+    height: 32px;
+}
+
+
+.main{
+    width: 1400px;
+    height: 2088px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.main-head-text-1{
+    display: inline-block;
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px; /* 123.75% */
+    letter-spacing: 2.88px;
+    position: relative;
+    bottom: 70px;
+}
+
+
+.main-head{
+    width: 1300px;
+    height: 99px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+
+
+.button-main{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    width: 178px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #118DA8;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.episode-1{
+    padding: 40px 0 40px 40px;
+    max-width: 1300px;
+    max-height: 545px;
+    border-radius: 32px;
+    background: #000;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.episode-1-inside{
+    display: inline-flex;
+    height: 465px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 53px;
+    flex-shrink: 0;
+}
+
+.button-episode-1{
+    width: 73px;
+    height: 27px;
+    border-radius: 6px;
+    background: #191919;
+}
+
+
+.episode-1-text{
+    color: #118DA8;
+    font-family: 'DM Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    margin-top: 48px;
+    display: inline-block;
+}
+
+.episode-1-h{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    letter-spacing: 2.56px;
+    margin: 18px 0 28px 0;
+}
+
+.episode-1-text-2{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    display: inline-block;
+}
+
+.button-episode-1-2{
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background: #118DA8;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */   
+    margin-top: 18px;
+}
+
+.episode-2{
+    padding: 40px 0 40px 40px;
+    max-width: 1300px;
+    max-height: 545px;
+    border-radius: 32px;
+    background: #000;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.episode-2-inside{
+    display: inline-flex;
+    height: 465px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 53px;
+    flex-shrink: 0;
+}
+
+.button-episode-2{
+    width: 136px;
+    height: 27px;
+    border-radius: 6px;
+    background: #191919;
+}
+
+
+.episode-2-text{
+    color: #118DA8;
+    font-family: 'DM Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    margin-top: 48px;
+    display: inline-block;
+}
+
+.episode-2-h{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    letter-spacing: 2.56px;
+    margin: 18px 0 28px 0;
+}
+
+.episode-2-text-2{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    display: inline-block;
+}
+
+.button-episode-2-2{
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background: #118DA8;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */   
+    margin-top: 18px;
+}
+
+
+.episode-3{
+    padding: 40px 0 40px 40px;
+    max-width: 1300px;
+    max-height: 545px;
+    border-radius: 32px;
+    background: #000;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.episode-3-inside{
+    display: inline-flex;
+    height: 465px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 53px;
+    flex-shrink: 0;
+}
+
+.button-episode-3{
+    width: 73px;
+    height: 27px;
+    border-radius: 6px;
+    background: #191919;
+}
+
+
+.episode-3-text{
+    color: #118DA8;
+    font-family: 'DM Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    margin-top: 48px;
+    display: inline-block;
+}
+
+.episode-3-h{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    letter-spacing: 2.56px;
+    margin: 18px 0 28px 0;
+}
+
+.episode-3-text-2{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    display: inline-block;
+}
+
+.button-episode-3-2{
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background: #118DA8;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */   
+    margin-top: 18px;
 }
