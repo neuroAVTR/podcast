@@ -32,6 +32,11 @@ header{
     color: white;
 }
 
+input:active, :hover, :focus {
+    outline: none;
+    outline-offset: none;
+}
+
 li , ul {
     list-style: none;
 }

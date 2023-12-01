@@ -1,0 +1,9 @@
+@media (max-width: 1400px) {
+    header{
+        max-width: 1400px;
+        min-width: 1300px;
+    }
+    .nav__links li{
+        margin-right: 20px;
+    }
+}
